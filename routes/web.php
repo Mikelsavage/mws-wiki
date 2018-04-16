@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// For Testing Purposes
+Route::get('db', 'TestController@testDbConn');
